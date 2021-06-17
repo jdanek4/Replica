@@ -15,3 +15,7 @@ A collection of replicated UI screens, components, and interactions in SwiftUI.
 
 ## Collection:
 
+| Design | Product |
+|:-:-:|
+|Minimal| |
+|![](Assets/minimal.png)|`Work in progress`|
