@@ -4,15 +4,14 @@
 import SwiftUI
 
 extension Shape {
-    /// fills and strokes a shape
-    public func fill<S:ShapeStyle>(
-        _ fillContent: S,
-        stroke       : StrokeStyle
-    ) -> some View {
-        ZStack {
-            self.fill(fillContent)
-            self.stroke(style:stroke)
-        }
+  /// fills and strokes a shape
+  public func fill<S: ShapeStyle>(
+    _ fillContent: S,
+    stroke: StrokeStyle
+  ) -> some View {
+    ZStack {
+      self.fill(fillContent)
+      self.stroke(style: stroke)
     }
+  }
 }
-
