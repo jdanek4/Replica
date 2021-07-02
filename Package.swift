@@ -16,7 +16,8 @@ let package = Package(
   targets: [
     .target(
       name: "Replica",
-      dependencies: []
+      dependencies: [],
+      resources: [.process("Assets.xcassets")]
     ),
     .testTarget(
       name: "ReplicaTests",
